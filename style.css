@@ -1,0 +1,202 @@
+
+#accueil{
+    background-color: grey;
+}
+.entete{
+    background-color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.text{
+    color: gray;
+}
+.button{
+    display: flex;
+    align-items: center;
+}
+.video1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video1 video{
+    width: 80%;
+}
+#text1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+#fb{
+    display: flex;
+    justify-content: space-around;
+}
+#ig{
+    color: blueviolet;
+}
+#tk{
+    color: black;
+}
+#wrap {
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    z-index: 99;
+    position: static;
+    background-color: black;
+}
+.navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    align-items: start!important;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.navbar li {
+    height: auto;
+    width: 135.8px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 20px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.navbar a {
+    font-size: large;
+    border-left: 1px solid gray;
+    text-decoration: solid;
+    color: grey;
+    display: flex;
+    justify-content: space-between
+}
+.navbar li:hover,
+a:hover {
+  background-color: #444444;
+}
+.navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.navbar li:hover ul {
+    display: block;
+}
+.navbar li ul li {
+    background-color: black;
+}
+.navbar li ul li a {
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 1px solid #c9d4d8;
+    border-bottom: 1px solid #444444;
+}
+.navbar li ul li a:hover {
+    background-color: gray;
+    color: black
+}
+
+@media all and (max-width: 950px){
+    .navbar{
+        display: block;
+    }
+    .navbar li {
+        height: auto;
+        width: 100%;
+        float: left;
+        text-align: center;
+        list-style: none;
+        font: normal bold 20px/1em Arial, Verdana, Helvetica;
+        padding: 0;
+        margin: 0;
+        background-color: black;
+    }
+    
+element.style {
+}
+.navbar a {
+    font-size: large;
+    border-left: 1px solid gray;
+    text-decoration: solid;
+    color: grey;
+    display: block;
+}
+}
+.textcont{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+#basic-addon1{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.tag{
+    width: 10%;
+}
+#butcont{
+    background-color: black;
+    color: gray;
+    margin-left: 50%;
+    border-radius: 10%;
+}
+#titre3-15{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    background-color: black;
+    color: gray;
+}
+#img3-151{
+    width: 45%;
+    margin-top: -0.6%;
+}
+#p3-15{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+#img3-152{
+    width: 55%;
+}
+#p3-151{
+    display: flex;
+    flex-direction: row;
+}
+#logobmw{
+    width: 65%;
+}
+#titre3-20{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    background-color: black;
+    color: gray;
+}
+#img3-201{
+    width: 50%;
+}
+#p3-20{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    margin-top: -0.8%;
+    margin-left: -1%;
+}
+#p-3-20{
+    padding-left: 1%;
+}
+#img3-202{
+    width: 60%;
+}
+#logobmw1{
+    width: 50%;
+}
