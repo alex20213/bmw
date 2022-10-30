@@ -1,3 +1,5 @@
+## VERSION 1.0.1
+* création des pages série X
 ## VERSION 1.0.0
 * création des pages des modèles électriques
 * création des pages des modèles Z
