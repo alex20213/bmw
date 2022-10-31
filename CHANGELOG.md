@@ -1,3 +1,5 @@
+## VERSION 1.0.2
+* création des pages série 1 à 8
 ## VERSION 1.0.1
 * création des pages série X
 ## VERSION 1.0.0
