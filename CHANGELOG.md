@@ -1,3 +1,5 @@
+## VERSION 1.0.3
+* création des pages modèles d'après-guerre
 ## VERSION 1.0.2
 * création des pages série 1 à 8
 ## VERSION 1.0.1
