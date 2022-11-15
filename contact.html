@@ -11,49 +11,33 @@
        <title>Document</title>
    </head>
 <body id="accueil">
-    <div class="row g-0 entete">
-        <div class="col-md-3"></div>
-        <div class="col-12 col-md-1 logo"><img src="logo.svg" alt=""></div>
-        <div class="col-9 col-md-5 text"><h1>VIVEZ L'EXPERIENCE BMW<br>LIVE THE EXPERIENCE BMW</h1></div>
-        <div class="col-3 col-md-3 button"><a href="page1BMW.html"><button type="button" class="btn btn-outline-secondary but1">RETOUR</button></a></div>
-   </div>
-   <h2 class="textcont">BESOIN D'INFORMATIONS ?</h2>
-   <h2 class="textcont">BESOIN DE CONSEILS ?</h2>
-   <h2 class="textcont">OU SIMPLEMENT DISCUTER AVEC NOUS</h2>
-   <h2 class="textcont">REMPLISSEZ LE FORMULAIRE JUSTE EN DESSOUS</h2>
-   <h2 class="textcont">ET NOUS VOUS RECONTACTERONS DANS LES PLUS BREFS DELAIS !</h2>
-   <div class="input-group mb-3 ">
-   <div class="input-group-prepend tag">
-      <span class="input-group-text" id="basic-addon1">NOM</span>
-    </div>
-    <input type="text" class="form-control" placeholder="Inscrivez votre nom dans cette case" aria-label="Inscrivez votre nom dans cette case" aria-describedby="basic-addon1">
-    </div>
-   <div class="input-group mb-3">
-    <div class="input-group-prepend tag">
-      <span class="input-group-text" id="basic-addon1">PRENOM</span>
-    </div>
-    <input type="text" class="form-control" placeholder="Inscrivez votre prénom dans cette case" aria-label="Inscrivez votre prénom dans cette case" aria-describedby="basic-addon1">
+  <div class="row g-0 entete">
+    <div class="col-md-3"></div>
+    <div class="col-12 col-md-1 logo"><img src="logo.svg" alt=""></div>
+    <div class="col-9 col-md-5 text"><h1>VIVEZ L'EXPERIENCE BMW<br>LIVE THE EXPERIENCE BMW</h1></div>
+    <div class="col-3 col-md-3 button"><a href="page1bmw.html"><button type="button" class="btn btn-outline-secondary but1">RETOUR</button></a></div>
   </div>
-   <div class="input-group mb-3">
-    <div class="input-group-prepend tag">
-      <span class="input-group-text" id="basic-addon1">EM@IL</span>
-    </div>
-    <input type="text" class="form-control" placeholder="Inscrivez votre em@il dans cette case" aria-label="Inscrivez votre em@il dans cette case" aria-describedby="basic-addon1">
+  <div id="textcontact">
+    <h2 class="textcont">BESOIN D'INFORMATIONS ?<br>BESOIN DE CONSEILS ?<br>OU SIMPLEMENT DISCUTER AVEC NOUS<br>REMPLISSEZ LE FORMULAIRE JUSTE EN DESSOUS<br>ET NOUS VOUS RECONTACTERONS DANS LES PLUS BREFS DELAIS !</h2>
   </div>
-   <div class="input-group mb-3">
-    <div class="input-group-prepend tag">
-      <span class="input-group-text" id="basic-addon1">TELEPHONE</span>
+  <div class="container">
+    <h3 id="titlecontact">Formulaire de contact</h3>
+    <form action="/action_page.php">
+    <label for="fname">Nom & prénom</label>
+    <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+    <label for="sujet">Sujet</label>
+    <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+    <label for="emailAddress">Email</label>
+    <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+    <div id="butcont">
+      <input type="submit" value="Envoyer">
     </div>
-    <input type="text" class="form-control" placeholder="Inscrivez votre téléphone dans cette case" aria-label="Inscrivez votre téléphone dans cette case" aria-describedby="basic-addon1">
+    </form>
   </div>
-   <div class="input-group mb-3">
-    <div class="input-group-prepend tag">
-      <span class="input-group-text" id="basic-addon1">MESSAGE</span>
-    </div>
-    <textarea class="form-control" placeholder="Tapez votre message dans cette case" aria-label="With textarea"></textarea>
-</div>
-   </div>
-  <button id="butcont">ENVOYER</button>
-    
 </body>
 </html>
+ 
+
+</div>
